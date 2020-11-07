@@ -42,7 +42,9 @@ this is third
 this is last
 ```
 
-Specification:
---------------
-* The program runs the task named 'main' and will return an error if their isn't
-* The program checks automatically for cycles in tasks order and will return an error if their is a cycle
+Specification
+=============
+* The program runs the task named 'main'.
+* The program returns an error if their isn't a task named 'main'.
+* The program checks automatically for cycles in tasks order.
+* If a cycle is found the program returns an error and prints the cycle.
